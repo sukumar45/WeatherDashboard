@@ -3,7 +3,7 @@ A browser-based weather dashboard (Python + Django + Dash + Plotly + React JS)
 
 Parsing data from CSV files and visualizing on a (web)browser-based UI 
 
-## Dashboard preview (in-progress)
+## Dashboard preview
 
 ![WeatherDashboard](https://user-images.githubusercontent.com/20065946/119750469-4e696f00-be91-11eb-95e2-fd438d6578f8.JPG)
 
