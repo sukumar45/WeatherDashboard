@@ -11,8 +11,8 @@ import plotly.express as px
 
 
 # PRE-PROCESSING
-location_data = pd.read_csv("E:\Plotly\Assignment\demo\data\locationData.csv")
-location_map = pd.read_csv("E:\Plotly\Assignment\demo\data\locationMap.csv")
+location_data = pd.read_csv("../data/locationData.csv")
+location_map = pd.read_csv("../data/locationMap.csv")
 location_data = location_data.drop(labels=0, axis=0)
 features = ['WindDirection', 'WindSpeed', 'Gust' ]
 location_data[features] = location_data[features].fillna(0)
