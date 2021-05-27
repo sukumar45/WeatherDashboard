@@ -1,0 +1,19 @@
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+<script src = "https://cdn.plot.ly/plotly-latest.min.js"></script>
+{% load static %}
+{% block content %}
+    {% load plotly_dash %}
+<h2>Historic Weather Data Dashboard- County Cork</h2>
+
+    <div class="{% plotly_class name='WeatherDashboard' %} card" style="height: 100%; width: 100%">
+        {% plotly_app name='WeatherDashboard' ratio=0.50 %}
+    </div>
+
+{% endblock %}
