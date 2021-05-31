@@ -10,7 +10,7 @@ Parsing data from CSV files and visualizing on a (web)browser-based UI
 
 ## Installation Instructions
 
-1. Create an virtual env
+1. Create a virtual env
 
 2. Check if you have a virtual env virtualenv --version
 (Not Installed) Dont see a version number? run sudo pip install virtualenv
